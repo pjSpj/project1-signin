@@ -1,0 +1,87 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin:0;
+    background-color:#5893d4;
+}
+
+.topper{
+    font-family:'Pacifico', cursive;
+    color: white;
+    background-color: #1f3c88;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.title{
+    color: white;
+    font-family:'Roboto', sans-serif;;
+    position: absolute;
+    top: 12px;
+    left: 42%;
+    text-transform: uppercase;
+}
+
+.footer{
+    background-color: #1f3c88;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+
+/* navbar */
+i{
+    color: white;
+}
+.navbar-brand{
+    font-family:'Pacifico', cursive;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.navbar{
+    background-color: #1f3c88;
+    color: white;
+}
+
+/* dropdown */
+hr{
+    border-top:2px solid #ffc107;
+    margin: 0;
+}
+
+.dropdown-menu{
+    right: 0;
+    left: auto;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.dropdown-item{
+    color: #1f3c88; 
+
+}
+
+.dropdown-item:hover{
+    background-color: #f7b633;
+    color: white;
+}
+
+/* card */
+.card{
+    border: none;
+}
+
+.container{
+    margin-top: 20px;
+}

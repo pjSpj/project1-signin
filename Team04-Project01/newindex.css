@@ -1,0 +1,169 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin:0;
+    background-color:#5893d4;
+}
+
+.topper{
+    font-family:'Pacifico', cursive;
+    color: white;
+    background-color: #1f3c88;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+.footer{
+    background-color: #1f3c88;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+
+/* #dropzone{
+    background-color:red;
+} */
+
+/* navbar */
+i{
+    color: white;
+}
+.navbar-brand{
+    font-family:'Pacifico', cursive;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.navbar{
+    background-color: #1f3c88;
+    color: white;
+}
+
+/* dropdown */
+hr{
+    border-top:2px solid #ffc107;
+    margin: 0;
+}
+
+.dropdown-menu{
+    right: 0;
+    left: auto;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.dropdown-item{
+    color: #1f3c88; 
+
+}
+
+.dropdown-item:hover{
+    background-color: #f7b633;
+    color: white;
+}
+
+
+/* drag & drop */
+.upload_area{
+    position: relative;
+}
+
+.box.has-advanced-upload {
+    background-color: white;
+    outline: 2px dashed black;
+    outline-offset: -10px;
+}
+
+.box.has-advanced-upload .box__dragndrop {
+    display: inline;
+}
+
+.upload_note{
+    color: white;
+    font-family:'Roboto', sans-serif;
+    position: absolute;
+    top: 130%;
+    left: 100px;
+    font-size: 20px;
+    padding: 0;
+}
+
+
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.container{
+    position: absolute;
+    left: 50%;    
+    top: 100px
+} 
+
+#info{
+    width: 50%;
+    background-color: white;
+    border: 5px,#f7b633;
+    /* position: absolute; */
+    margin-top: 5%;
+    overflow-y: scroll;
+    height: 290px;
+    /* left: 5%;     */
+}
+
+.container .btn{
+    background-color: #1f3c88;
+    border-radius: 0;
+}
+
+.container .btn:hover{
+    background-color: #f7b633;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+.upload{
+    border: 5px dashed #f7b633;
+    width: 30%;
+    height: 290px;
+    position: relative;
+    background-color: #f3f8ff;
+    left: 100px;
+    top: 81px;
+}
+
+.box__input{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+/* Info */
+p{
+    padding: 10px;
+}
+
+hr#page{
+    border-top:10px dashed #f7b633;
+}
+
+/* firebase info */
+
+.container_firebase{
+    position: relative;
+}

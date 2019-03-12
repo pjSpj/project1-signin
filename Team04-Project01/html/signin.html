@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signin</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Roboto|Roboto+Condensed:700|Staatliches|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css?family=Mukta|Pacifico" rel="stylesheet"><body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../assets/css/signin.css">
+</head>
+
+<body>
+    
+</body>
+
+            <h1 class="topper">TROUVÉ</h1>
+  
+        <div class="title">
+            <h1 class="welcom">Welcome</h1>
+            <h3 id="sign-title">Please sign in here</h3>
+        </div>
+
+        <form>
+            <div class="form-group"> 
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary-submit">Sign In</button>
+            <button id="google">
+                <a href="#">
+                    <i class="fab fa-google"></i> Sign in with <b>Google</b>
+                </a>
+            </button>
+          </form>
+
+          <div class="notmember">
+              <h3 id="signup"><a href="signup.html">Don't have an account? Sign Up</a></h3>
+              <h3 id="fgt-pw">Forgot password?</h3>
+              <h3 id="fgt-email">Forgot email?</h3>                  
+          </div>
+
+          <div class="footer">By Team-4: Sharon C., Kai-Ann F., Peiji S., Nick B., D.T</div>
+
+         <!--firebase  -->
+        <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+        <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDtZpRVLxbmPpFp0OoQSMSAu-xGhoqkLsY",
+            authDomain: "proj1-b2bee.firebaseapp.com",
+            databaseURL: "https://proj1-b2bee.firebaseio.com",
+            projectId: "proj1-b2bee",
+            storageBucket: "proj1-b2bee.appspot.com",
+            messagingSenderId: "1021492434775"
+        };
+        firebase.initializeApp(config);
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../javascript/signin.js"></script>      
+    </body>
+</html>

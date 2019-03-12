@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color:#5893d4;
+}
+
+.topper{
+    font-family:'Pacifico', cursive;
+    color: white;
+    background-color: #1f3c88;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+.footer{
+    background-color: #1f3c88;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+
+.title{
+    margin-top: 12%;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #f9f9f9;
+    vertical-align: center;
+}
+
+.notmember h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+#sign_in{
+    padding-top: 3%;
+}
+
+#sign_in a{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f9f9f9;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#sign_in a:hover{
+    color: #f7b633;
+    text-decoration: none;
+}

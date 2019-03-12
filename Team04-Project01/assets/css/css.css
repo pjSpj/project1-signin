@@ -1,0 +1,95 @@
+.choose_file{
+    border: none;
+    left: 40%;
+    position: relative;
+    margin: 31px;
+}
+
+.title{
+    font-family:'Pacifico', cursive;
+    color: white;
+    background-color: #1f3c88;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+#description{
+    font-family: 'Mukta', sans-serif;
+    line-height: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    margin: 25px, 381.500px;
+}
+
+.form-inline{
+    position: absolute;
+    top:22px;
+    left: 1567px;
+    right: auto;
+}
+
+.email{
+    right: 200px;
+    bottom: 18px;
+
+}
+
+.password{
+    right: 150px;
+    bottom: 18px;
+}
+
+#login{
+    position: absolute;
+    right: 28px;
+    bottom: 20px;
+    color: white;
+    background-color: #5893d4;
+}
+
+#login a{
+    text-decoration: none;
+    color: white;
+}
+
+#login:hover{
+    background-color: #ceddef;
+    font-weight: bold;
+}
+
+#login a:hover{
+    color: #070d59;
+}
+
+.label_title{
+    color:white;
+}
+
+.logedin{
+position: absolute;
+color: white;
+top: 28px;
+right: 60px;
+font-weight: bold;
+font-size: 20px; 
+}
+
+.footer{
+    background-color: #1f3c88;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+
+#searchimg{
+    margin-left:37%;
+}

@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    background-color:#5893d4;
+}
+
+.topper{
+    font-family:'Pacifico', cursive;
+    color: white;
+    background-color: #1f3c88;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+h3{
+    font-size:15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding:5px;
+    font-weight: lighter;
+    margin-bottom:0;
+    text-align: center;  
+    color:#f6f4f4
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*register form*/
+.title h1{
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #f9f9f9;
+    vertical-align: center;
+}
+
+form{
+    color: #f9f9f9;
+    width: 25%;
+    margin-left: 38%;
+}
+
+.btn-primary-submit{
+    background-color: #1f3c88;
+    color: #f6f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 0;   
+    margin-left: 37%; 
+    text-transform: uppercase;
+}
+
+.btn-primary-submit:hover{
+    color: #2c2727;
+    transition: .1ms;
+    background-color: #f7b633;
+}
+
+#sign-title{
+    padding-top: 0;
+}
+
+label{
+    margin-bottom: 0;
+}
+
+.notmember h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f9f9f9;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+
+#signup a{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f9f9f9;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+#signup a:hover{
+    color: #f7b633;
+    text-decoration: none;
+}
+
+#fgt-pw:hover{
+    color: #f7b633;
+}
+
+#fgt-email:hover{
+    color: #f7b633;
+}
+
+#emailHelp{
+    color:#f7b633;
+}
+
+#google{
+    background-color: #cd5555;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-left: 28%;
+    margin-top: 0.5rem;
+}
+
+#google a{
+    color: white;
+    text-decoration: none;
+}
+
+#google:hover{
+    background-color: #bb3939;
+}
+
+
+
+.footer{
+    background-color: #1f3c88;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
